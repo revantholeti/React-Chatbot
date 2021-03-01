@@ -1,0 +1,26 @@
+{
+    "resourceName": "lex36d97734",
+    "botName": "TestingBot",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "Name",
+                    "type": "AMAZON.GB_FIRST_NAME",
+                    "prompt": "Hi, What is your name?",
+                    "required": true,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "Hi",
+                "Hello"
+            ],
+            "intentName": "Greetings",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": false,
+    "sessionTimeout": 5,
+    "coppa": false
+}
